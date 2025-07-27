@@ -1,0 +1,2 @@
+rootProject.name = "Pred APP"
+include ':app'

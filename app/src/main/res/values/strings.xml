@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Pred APP</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_predictions">Predictions</string>
+    <string name="nav_results">Results</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="logout">Logout</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verify">Verify</string>
+    <string name="resend_code">Resend Code</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome to Pred APP</string>
+    <string name="prediction_of_day">Prediction of the Day</string>
+    <string name="view_all">View All</string>
+    <string name="free_predictions">Free Predictions</string>
+    <string name="premium_predictions">Premium Predictions</string>
+    <string name="upgrade_to_premium">Upgrade to Premium</string>
+    
+    <!-- Predictions -->
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="date">Date</string>
+    <string name="sport">Sport</string>
+    <string name="confidence">Confidence</string>
+    <string name="match_details">Match Details</string>
+    <string name="prediction">Prediction</string>
+    <string name="analysis">Analysis</string>
+    <string name="expert">Expert</string>
+    <string name="success_rate">Success Rate</string>
+    <string name="football">Football</string>
+    <string name="basketball">Basketball</string>
+    <string name="tennis">Tennis</string>
+    <string name="all_sports">All Sports</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="this_week">This Week</string>
+    <string name="last_week">Last Week</string>
+    <string name="custom_date">Custom Date</string>
+    
+    <!-- Results -->
+    <string name="win">Win</string>
+    <string name="loss">Loss</string>
+    <string name="pending">Pending</string>
+    <string name="export">Export</string>
+    <string name="statistics">Statistics</string>
+    <string name="overall_success_rate">Overall Success Rate</string>
+    <string name="sport_success_rate">Success Rate by Sport</string>
+    <string name="monthly_performance">Monthly Performance</string>
+    
+    <!-- Premium -->
+    <string name="premium_benefits">Premium Benefits</string>
+    <string name="premium_benefit_1">Exclusive high-confidence predictions</string>
+    <string name="premium_benefit_2">Multiple daily predictions with expert analysis</string>
+    <string name="premium_benefit_3">Early access (2-4 hours before free users)</string>
+    <string name="premium_benefit_4">Detailed expert analysis</string>
+    <string name="subscription_plans">Subscription Plans</string>
+    <string name="monthly_plan">Monthly Plan</string>
+    <string name="quarterly_plan">Quarterly Plan</string>
+    <string name="yearly_plan">Yearly Plan</string>
+    <string name="payment_instructions">Payment Instructions</string>
+    <string name="payment_reference">Payment Reference</string>
+    <string name="transaction_number">Transaction Number</string>
+    <string name="submit_payment">Submit Payment</string>
+    <string name="payment_verification">Payment Verification</string>
+    <string name="payment_pending">Your payment is being verified</string>
+    <string name="payment_success">Payment successful! You now have premium access</string>
+    <string name="payment_failed">Payment verification failed. Please try again</string>
+    
+    <!-- Expert Panel -->
+    <string name="expert_login">Expert Login</string>
+    <string name="add_prediction">Add Prediction</string>
+    <string name="edit_prediction">Edit Prediction</string>
+    <string name="mark_result">Mark Result</string>
+    <string name="verify_payment">Verify Payment</string>
+    <string name="manage_subscriptions">Manage Subscriptions</string>
+    <string name="set_as_potd">Set as Prediction of the Day</string>
+    <string name="premium_only">Premium Only</string>
+    
+    <!-- General -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="refresh">Refresh</string>
+    <string name="search">Search</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="no_data">No data available</string>
+    <string name="coming_soon">Coming Soon</string>
+    
+    <!-- Compliance -->
+    <string name="age_verification">You must be 18+ to use this app</string>
+    <string name="responsible_gambling">Please gamble responsibly</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+</resources>

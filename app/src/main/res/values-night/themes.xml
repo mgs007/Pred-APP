@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme application theme using Material 3 -->
+    <style name="Theme.PredApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkPrimary</item>
+        <item name="colorPrimaryVariant">@color/darkPrimaryContainer</item>
+        <item name="colorOnPrimary">@color/darkOnPrimary</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondaryContainer</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Customize your theme here. -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/onError</item>
+        <item name="colorSurface">@color/darkSurface</item>
+        <item name="colorOnSurface">@color/darkOnSurface</item>
+        <item name="android:colorBackground">@color/darkBackground</item>
+        <item name="colorOnBackground">@color/darkOnBackground</item>
+        
+        <!-- Typography -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.PredApp.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.PredApp.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.PredApp.HeadlineSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.PredApp.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.PredApp.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.PredApp.BodySmall</item>
+        
+        <!-- Shape -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.PredApp.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.PredApp.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.PredApp.LargeComponent</item>
+    </style>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme using Material 3 -->
+    <style name="Theme.PredApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryContainer</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondaryContainer</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Customize your theme here. -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/onError</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        
+        <!-- Typography -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.PredApp.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.PredApp.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.PredApp.HeadlineSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.PredApp.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.PredApp.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.PredApp.BodySmall</item>
+        
+        <!-- Shape -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.PredApp.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.PredApp.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.PredApp.LargeComponent</item>
+    </style>
+    
+    <!-- No Action Bar theme variant -->
+    <style name="Theme.PredApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <!-- Typography styles -->
+    <style name="TextAppearance.PredApp.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextAppearance.PredApp.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextAppearance.PredApp.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextAppearance.PredApp.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextAppearance.PredApp.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextAppearance.PredApp.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    
+    <!-- Shape styles -->
+    <style name="ShapeAppearance.PredApp.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.PredApp.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.PredApp.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

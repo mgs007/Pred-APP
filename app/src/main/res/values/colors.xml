@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 color scheme -->
+    <color name="primary">#FF6750A4</color>
+    <color name="onPrimary">#FFFFFFFF</color>
+    <color name="primaryContainer">#FFE9DDFF</color>
+    <color name="onPrimaryContainer">#FF22005D</color>
+    
+    <color name="secondary">#FF625B71</color>
+    <color name="onSecondary">#FFFFFFFF</color>
+    <color name="secondaryContainer">#FFE8DEF8</color>
+    <color name="onSecondaryContainer">#FF1E192B</color>
+    
+    <color name="tertiary">#FF7E5260</color>
+    <color name="onTertiary">#FFFFFFFF</color>
+    <color name="tertiaryContainer">#FFFFD9E3</color>
+    <color name="onTertiaryContainer">#FF31101D</color>
+    
+    <color name="error">#FFB3261E</color>
+    <color name="onError">#FFFFFFFF</color>
+    <color name="errorContainer">#FFF9DEDC</color>
+    <color name="onErrorContainer">#FF410E0B</color>
+    
+    <color name="background">#FFFFFFFF</color>
+    <color name="onBackground">#FF1C1B1F</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="onSurface">#FF1C1B1F</color>
+    
+    <!-- Custom colors for app-specific elements -->
+    <color name="colorAccent">#FF6750A4</color>
+    <color name="win">#FF4CAF50</color>
+    <color name="loss">#FFF44336</color>
+    <color name="pending">#FFFFEB3B</color>
+    <color name="premium">#FFFFC107</color>
+    
+    <!-- Star rating colors -->
+    <color name="starFilled">#FFFFC107</color>
+    <color name="starEmpty">#FFE0E0E0</color>
+    
+    <!-- Dark theme colors -->
+    <color name="darkPrimary">#FFD0BCFF</color>
+    <color name="darkOnPrimary">#FF381E72</color>
+    <color name="darkPrimaryContainer">#FF4F378B</color>
+    <color name="darkOnPrimaryContainer">#FFEADDFF</color>
+    
+    <color name="darkBackground">#FF1C1B1F</color>
+    <color name="darkOnBackground">#FFE6E1E5</color>
+    <color name="darkSurface">#FF1C1B1F</color>
+    <color name="darkOnSurface">#FFE6E1E5</color>
+</resources>
