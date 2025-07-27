@@ -190,7 +190,7 @@ Give a ⭐️ if this project helped you!
 
 ## 👨‍💻 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **MGS007** - *Initial work* - [GitHub](https://github.com/mgs007)
 
 ## 🙏 Acknowledgments
 
