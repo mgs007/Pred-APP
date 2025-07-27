@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/predictionCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- POTD Badge -->
+        <View
+            android:id="@+id/potdBadge"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:background="@color/premium"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+        <!-- Match Teams -->
+        <TextView
+            android:id="@+id/matchTeams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            app:layout_constraintEnd_toStartOf="@+id/resultStatus"
+            app:layout_constraintStart_toEndOf="@+id/potdBadge"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Manchester United vs Chelsea" />
+
+        <!-- Match Date -->
+        <TextView
+            android:id="@+id/matchDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+            app:layout_constraintEnd_toEndOf="@+id/matchTeams"
+            app:layout_constraintStart_toStartOf="@+id/matchTeams"
+            app:layout_constraintTop_toBottomOf="@+id/matchTeams"
+            tools:text="24 Dec 2023, 15:00" />
+
+        <!-- Prediction Type -->
+        <TextView
+            android:id="@+id/predictionType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/confidenceLevel"
+            app:layout_constraintStart_toStartOf="@+id/matchTeams"
+            app:layout_constraintTop_toBottomOf="@+id/matchDate"
+            tools:text="Home Win" />
+
+        <!-- Confidence Level -->
+        <TextView
+            android:id="@+id/confidenceLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            app:layout_constraintBottom_toBottomOf="@+id/predictionType"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/predictionType"
+            app:layout_constraintTop_toTopOf="@+id/predictionType"
+            tools:text="8/10" />
+
+        <!-- Odds -->
+        <TextView
+            android:id="@+id/odds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/predictionType"
+            app:layout_constraintTop_toBottomOf="@+id/predictionType"
+            tools:text="Odds: 1.75" />
+
+        <!-- Result Status -->
+        <TextView
+            android:id="@+id/resultStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/matchTeams"
+            tools:text="WIN"
+            tools:textColor="@color/win" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

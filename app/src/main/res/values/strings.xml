@@ -72,10 +72,13 @@
     <string name="premium_benefit_3">Early access (2-4 hours before free users)</string>
     <string name="premium_benefit_4">Detailed expert analysis</string>
     <string name="subscription_plans">Subscription Plans</string>
+    <string name="select_plan">Select your subscription plan:</string>
+    <string name="plan_amount">Plan Amount:</string>
     <string name="monthly_plan">Monthly Plan</string>
     <string name="quarterly_plan">Quarterly Plan</string>
     <string name="yearly_plan">Yearly Plan</string>
     <string name="payment_instructions">Payment Instructions</string>
+    <string name="payment_instructions_text">Please make a payment to our account using the reference number below. After payment, enter your transaction number and submit for verification.</string>
     <string name="payment_reference">Payment Reference</string>
     <string name="transaction_number">Transaction Number</string>
     <string name="submit_payment">Submit Payment</string>
@@ -108,9 +111,28 @@
     <string name="no_data">No data available</string>
     <string name="coming_soon">Coming Soon</string>
     
+    <!-- Profile -->
+    <string name="title_profile">My Profile</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="premium_badge">Premium Badge</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="subscription_info">Subscription Information</string>
+    <string name="expiry_date">Expiry Date:</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="premium_member">Premium Member</string>
+    <string name="free_user">Free User</string>
+    <string name="ok">OK</string>
+    <string name="display_name">Display Name</string>
+    
     <!-- Compliance -->
     <string name="age_verification">You must be 18+ to use this app</string>
     <string name="responsible_gambling">Please gamble responsibly</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="terms_of_service">Terms of Service</string>
+    <!-- Plurals -->
+    <plurals name="days_remaining">
+        <item quantity="one">%d day remaining</item>
+        <item quantity="other">%d days remaining</item>
+    </plurals>
 </resources>

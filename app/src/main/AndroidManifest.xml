@@ -38,6 +38,10 @@
             android:name=".ui.expert.ExpertActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".ui.subscription.SubscriptionActivity"
+            android:exported="false" />
+
         <service
             android:name=".service.PredAppMessagingService"
             android:exported="false">

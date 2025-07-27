@@ -3,6 +3,7 @@ package com.predapp.repository
 import com.google.firebase.Timestamp
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
+import com.predapp.model.PlanType
 import com.predapp.model.Subscription
 import kotlinx.coroutines.tasks.await
 import java.util.Calendar
@@ -66,9 +67,10 @@ class SubscriptionRepository {
     suspend fun createSubscriptionRequest(
         userId: String,
         paymentReference: String,
-        planType: Subscription.PlanType,
+        planType: PlanType,
         amount: Double,
-        currency: String
+        currency: String = "USD",
+        transactionNumber: String = ""
     ): String? {
         return try {
             // Check if user already has a pending subscription
@@ -80,6 +82,7 @@ class SubscriptionRepository {
                     planType = planType,
                     amount = amount,
                     currency = currency,
+                    transactionNumber = if (transactionNumber.isNotEmpty()) transactionNumber else pendingSubscription.transactionNumber,
                     updatedAt = Timestamp.now()
                 )
                 
@@ -96,6 +99,7 @@ class SubscriptionRepository {
                 subscriptionId = documentRef.id,
                 userId = userId,
                 paymentReference = paymentReference,
+                transactionNumber = transactionNumber,
                 planType = planType,
                 amount = amount,
                 currency = currency,
@@ -212,14 +216,14 @@ class SubscriptionRepository {
     }
     
     // Calculate subscription end date based on plan type
-    private fun calculateEndDate(startDate: Date, planType: Subscription.PlanType): Date {
+    private fun calculateEndDate(startDate: Date, planType: PlanType): Date {
         val calendar = Calendar.getInstance()
         calendar.time = startDate
         
         when (planType) {
-            Subscription.PlanType.MONTHLY -> calendar.add(Calendar.MONTH, 1)
-            Subscription.PlanType.QUARTERLY -> calendar.add(Calendar.MONTH, 3)
-            Subscription.PlanType.YEARLY -> calendar.add(Calendar.YEAR, 1)
+            PlanType.MONTHLY -> calendar.add(Calendar.MONTH, 1)
+            PlanType.QUARTERLY -> calendar.add(Calendar.MONTH, 3)
+            PlanType.YEARLY -> calendar.add(Calendar.YEAR, 1)
         }
         
         return calendar.time
