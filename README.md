@@ -79,8 +79,8 @@ app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/betpredict-pro.git
-   cd betpredict-pro
+   git clone https://github.com/mgs007/Pred-APP.git
+   cd Pred-APP
    ```
 
 2. **Firebase Setup**
