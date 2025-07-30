@@ -32,6 +32,7 @@ android {
         viewBinding true
         dataBinding true
     }
+    namespace 'com.predapp'
 }
 
 dependencies {
