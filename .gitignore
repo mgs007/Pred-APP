@@ -34,8 +34,11 @@ apikeys.properties
 # Temporary files
 *.tmp
 *.temp
+<<<<<<< HEAD
 
 *.msi
 *.zip
 *.jar
 gradle-*/gradle-*/lib/
+=======
+>>>>>>> 13540d73186a87757013e22bc8a435207977d70c
