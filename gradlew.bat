@@ -13,15 +13,10 @@
 @rem See the License for the specific language governing permissions and
 @rem limitations under the License.
 @rem
-<<<<<<< HEAD
-
-@if "%DEBUG%" == "" @echo off
-=======
 @rem SPDX-License-Identifier: Apache-2.0
 @rem
 
 @if "%DEBUG%"=="" @echo off
->>>>>>> 13540d73186a87757013e22bc8a435207977d70c
 @rem ##########################################################################
 @rem
 @rem  Gradle startup script for Windows
