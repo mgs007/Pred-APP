@@ -8,6 +8,8 @@
     <string name="nav_predictions">Predictions</string>
     <string name="nav_results">Results</string>
     <string name="nav_profile">Profile</string>
+    <string name="title_home">Home</string>
+    <string name="title_predictions">Predictions</string>
     
     <!-- Authentication -->
     <string name="login">Login</string>
@@ -29,16 +31,21 @@
     <!-- Home Screen -->
     <string name="welcome_message">Welcome to Pred APP</string>
     <string name="prediction_of_day">Prediction of the Day</string>
+    <string name="prediction_of_the_day">Prediction of the Day</string>
     <string name="view_all">View All</string>
     <string name="free_predictions">Free Predictions</string>
     <string name="premium_predictions">Premium Predictions</string>
     <string name="upgrade_to_premium">Upgrade to Premium</string>
+    <string name="premium_banner_title">Upgrade to Premium</string>
+    <string name="premium_banner_description">Get access to exclusive predictions and expert analysis</string>
     
     <!-- Predictions -->
     <string name="filter">Filter</string>
+    <string name="filters">Filters</string>
     <string name="sort">Sort</string>
     <string name="date">Date</string>
     <string name="sport">Sport</string>
+    <string name="category">Category</string>
     <string name="confidence">Confidence</string>
     <string name="match_details">Match Details</string>
     <string name="prediction">Prediction</string>
@@ -54,6 +61,10 @@
     <string name="this_week">This Week</string>
     <string name="last_week">Last Week</string>
     <string name="custom_date">Custom Date</string>
+    <string name="no_predictions_available">No predictions available</string>
+    <string name="try_different_filters">Try different filters</string>
+    <string name="status">Status</string>
+    <string name="premium_unavailable">Premium content unavailable</string>
     
     <!-- Results -->
     <string name="win">Win</string>
@@ -64,6 +75,15 @@
     <string name="overall_success_rate">Overall Success Rate</string>
     <string name="sport_success_rate">Success Rate by Sport</string>
     <string name="monthly_performance">Monthly Performance</string>
+    <string name="title_results">Results</string>
+    <string name="win_rate">Win Rate</string>
+    <string name="total_predictions">Total Predictions</string>
+    <string name="wins">Wins</string>
+    <string name="losses">Losses</string>
+    <string name="filter_by_category">Filter by Category</string>
+    <string name="past_results">Past Results</string>
+    <string name="no_results_available">No results available</string>
+    <string name="check_back_later">Check back later</string>
     
     <!-- Premium -->
     <string name="premium_benefits">Premium Benefits</string>

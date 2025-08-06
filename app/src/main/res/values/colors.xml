@@ -47,4 +47,7 @@
     <color name="darkOnBackground">#FFE6E1E5</color>
     <color name="darkSurface">#FF1C1B1F</color>
     <color name="darkOnSurface">#FFE6E1E5</color>
+    
+    <!-- Launcher icon colors -->
+    <color name="ic_launcher_background">#FF6750A4</color>
 </resources>

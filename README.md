@@ -1,4 +1,4 @@
-# 🏆 BetPredict Pro - Android Betting Prediction App
+# 🏆 PredAPP - Android Betting Prediction App
 
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://android.com)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-blue.svg)](https://kotlinlang.org)
@@ -52,19 +52,36 @@ A comprehensive Android application for sports betting predictions featuring fre
 
 ```
 app/
-├── data/
-│   ├── repository/
-│   ├── remote/
-│   └── local/
-├── domain/
-│   ├── model/
-│   ├── repository/
-│   └── usecase/
-├── presentation/
-│   ├── ui/
-│   ├── viewmodel/
-│   └── theme/
-└── di/
+├── src/main/
+    ├── java/com/predapp/
+    │   ├── model/                 # Data models
+    │   │   ├── PlanType.kt
+    │   │   ├── Prediction.kt
+    │   │   ├── Subscription.kt
+    │   │   └── User.kt
+    │   ├── repository/            # Data repositories
+    │   │   ├── PredictionRepository.kt
+    │   │   ├── SubscriptionRepository.kt
+    │   │   └── UserRepository.kt
+    │   ├── service/               # Background services
+    │   │   └── PredAppMessagingService.kt
+    │   ├── ui/                    # UI components
+    │   │   ├── auth/
+    │   │   ├── home/
+    │   │   ├── main/
+    │   │   ├── predictions/
+    │   │   ├── profile/
+    │   │   ├── results/
+    │   │   └── subscription/
+    │   └── PredApp.kt             # Application class
+    └── res/                       # Android resources
+        ├── drawable/
+        ├── layout/
+        ├── menu/
+        ├── navigation/
+        ├── values/
+        └── values-night/
+
 ```
 
 ## 🚀 Getting Started
@@ -167,13 +184,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🐛 Bug Reports & Feature Requests
 
-Please use the [GitHub Issues](https://github.com/yourusername/betpredict-pro/issues) page to report bugs or request features.
+Please use the [GitHub Issues](ISSUE_TEMPLATE.md) page to report bugs or request features.
 
 ## 📞 Support
 
-- **Email**: support@betpredict.com
-- **Documentation**: [Wiki](https://github.com/yourusername/betpredict-pro/wiki)
-- **FAQ**: [Frequently Asked Questions](docs/FAQ.md)
+- **Email**: kelvinpius818@outlook.com
 
 ## 🔄 Roadmap
 
@@ -190,7 +205,7 @@ Give a ⭐️ if this project helped you!
 
 ## 👨‍💻 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **MGS007** - *Initial work* - [GitHub](https://github.com/mgs007)
 
 ## 🙏 Acknowledgments
 
